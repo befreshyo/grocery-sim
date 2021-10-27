@@ -17,7 +17,7 @@ class BillProcessor {
         String deal;                                                                        // bogo or amt of discount
         double quantity;                                                                    // quantity
         double totalBill = 0;                                                               // total bill amt
-		double totalDiscount = 0;                                                           // total discount amt
+	double totalDiscount = 0;                                                           // total discount amt
         double discount = 0;                                                                // discount amt with quantity
         double ogItemCost;                                                                  // original item cost
         double itemPrice = 0;                                                               // item price with quantity
