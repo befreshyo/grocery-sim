@@ -176,7 +176,7 @@ prints the goodbye statement
         presentMenuOfItems();                                                                   //prints item menu
         do {
             System.out.print("Enter the number of your choice, or q to check out: ");
-			choice = sc.next();                                                                 //finds choice from user
+	    choice = sc.next();                                                                 //finds choice from user
             if (!choice.equals("q")) { 
                 String itemName = (itemNames.get(Integer.parseInt(choice)-1));
                 if (purchases.containsKey(itemName)) {                                          //adds each purchase and the quantity of item to the hashmap
