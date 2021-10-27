@@ -1,0 +1,6 @@
+Mountain Dew	0.30
+Cereal	bogo
+Bread	0.20
+Hamburgers	2.00
+Tamales	0.80
+Eggs	bogo
