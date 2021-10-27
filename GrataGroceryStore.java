@@ -45,7 +45,7 @@ class BillProcessor {
                 totalBill = totalBill + itemPrice;}
             
             if (discount > 0){                                                              //if discount amount is greater than $0 then print the discount statement  
-                System.out.printf("%.0f %s, regularly $%.2f each, total $%.2f ($%.2f discount)\n", quantity, item, ogItemCost, itemPrice ,discount);        //%.0f quantity
+                System.out.printf("%.0f %s, regularly $%.2f each, total $%.2f ($%.2f discount)\n", quantity, item, ogItemCost, itemPrice ,discount);
             } else {                                                                        //else print regular statement without discount   
             System.out.printf("%.0f %s, regularly $%.2f each, total $%.2f\n", quantity, item, ogItemCost, itemPrice );}
         }
